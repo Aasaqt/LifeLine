@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dip" 
+   android:id="@+id/backgroundhelp">
+    
+  
+ 
+    <!-- Article title -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="1dip"
+        android:textSize="18dip"
+          android:textColor="#303030" 
+        android:layout_margin="10dp"
+           android:text="title"/>
+    
+    <!-- published date -->
+    <TextView 
+        android:id="@+id/subtext"
+        android:layout_below="@id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="3dip"
+        android:textSize="14dip"
+        android:textStyle="italic"
+        android:textColor="#0F1C50"
+        android:layout_marginLeft="10dp"
+         android:text="pub date"/>
+    
+    
+    
+    </RelativeLayout><!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/layout/help_row.xml -->

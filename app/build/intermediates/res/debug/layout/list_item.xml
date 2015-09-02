@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="vertical" >
+    
+    <!-- Single ListItem -->
+    
+    <!-- Product Name -->
+    <TextView android:id="@+id/product_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:textSize="16dip"
+        android:text="Life Line"
+        android:textStyle="bold"/>
+    <TextView android:id="@+id/product_id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:text="Pid"
+        android:visibility="gone"/> 
+          
+
+</LinearLayout><!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/layout/list_item.xml -->

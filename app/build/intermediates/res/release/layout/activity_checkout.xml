@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+   <!-- <TextView
+        android:id="@+id/tvorderlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="MY ORDERS"
+        android:layout_marginTop="10dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" /> -->
+    <RelativeLayout
+         android:id="@+id/upperlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+         >
+          <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="PRODUCTS"
+        android:textColor="#FBA146"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/tvItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:text="PRICE"
+        android:textColor="#FBA146"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvQuantItem"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvItemPrice"
+        android:layout_alignBottom="@+id/tvItemPrice"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/tvItemPrice"
+        android:text="Qty"
+        android:paddingLeft="5dp"
+        android:textColor="#FBA146" />
+		
+          </RelativeLayout>
+
+    
+    <ListView 
+         android:id="@+id/lvcheckoutlist"
+         android:layout_below="@+id/upperlayout"
+         android:layout_width="match_parent"
+         android:layout_height="185dp"
+       
+        ></ListView>
+
+
+    <TextView
+        android:id="@+id/tvServiceChargeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="43dp"
+        android:text="Rs 20"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/tvNetAmountValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/tvServiceChargeValue"
+        android:text="Rs 1020"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+     <Button
+        android:id="@+id/btnCheckOutNext"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/custombordercontent"
+        android:textColor="#ffffff"
+        android:text="Next" />
+
+     <TextView
+         android:id="@+id/textView3"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView2"
+         android:layout_below="@+id/textView2"
+         android:layout_marginTop="17dp"
+         android:text="@string/net_amount_rs"
+         android:textColor="#FBA146"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/tvCheckOutTotalAmount"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/textView4"
+         android:layout_alignBottom="@+id/textView4"
+         android:layout_alignLeft="@+id/tvServiceChargeValue"
+         android:text="Rs 1000"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView4"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/tvServiceChargeValue"
+         android:layout_alignLeft="@+id/btnCheckOutNext"
+         android:layout_marginBottom="16dp"
+         android:layout_below="@+id/lvcheckoutlist"
+         android:text="@string/total_amount_rs"
+         android:textColor="#FBA146"
+         android:paddingTop="15dp"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView4"
+         android:layout_below="@+id/lvcheckoutlist"
+         android:layout_marginTop="63dp"
+         android:textColor="#FBA146"
+         android:text="@string/service_amount_rs"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+   
+</RelativeLayout>
+
+<!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/layout/activity_checkout.xml -->

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/assets"><file name="result.csv" path="/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/assets/result.csv"/></source></dataSet><dataSet config="debug"><source path="/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/debug/assets"/></dataSet></merger>

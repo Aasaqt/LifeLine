@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+ 
+    <TextView
+            android:id="@+id/itemtxt"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+         	android:layout_margin="15dp"
+            android:text="Data"
+
+             />
+    <TextView
+            android:id="@+id/tvcartpid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+      	     android:textSize="5dp" />
+
+    <ImageView
+        android:id="@+id/ivcartpress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="21dp"
+        android:src="@drawable/btn_addtocart_normal" />
+
+    <TextView
+        android:id="@+id/tvcartprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/itemtxt"
+        android:layout_alignBottom="@+id/itemtxt"
+        android:layout_marginRight="23dp"
+        android:layout_toLeftOf="@+id/ivcartpress"
+        android:textColor="#FBA146"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:text="Price"
+        android:layout_marginLeft="10dp"/>
+
+</RelativeLayout>

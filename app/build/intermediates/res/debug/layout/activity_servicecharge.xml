@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="25dp">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:text="Service Charge"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FBA146"
+        android:paddingLeft="30dp"
+        android:gravity="left"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id = "@+id/RHE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:padding="15dp">
+
+    <TableRow android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        >
+        <TextView
+            android:text="General Store"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="30"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"/>
+
+    </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Fruits"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Medicine"
+                android:layout_height="wrap_content"
+
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Bakery"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Chinese Food"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Lava"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="University Sweets"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Stationary"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Cosmetics"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="NFS"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Stu-C"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Dark Moon Kitchen"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <!--<TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+        <TextView
+            android:text="Recharge"
+            android:layout_height="wrap_content"
+            />
+        <TextView
+            android:text="10"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"/>
+
+    </TableRow>-->
+        <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="E-printout"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:text="30"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"/>
+
+        </TableRow>
+        <!--<TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:text="Order From More Than One Store"
+                android:layout_height="wrap_content"
+                android:textColor="#FBA146"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:text="30"
+                android:textColor="#FBA146"
+                android:textSize="15dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:textStyle="bold"/>
+
+        </TableRow>-->
+
+
+
+    </TableLayout>
+        </HorizontalScrollView>
+
+</LinearLayout>
+    </ScrollView><!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/layout/activity_servicecharge.xml -->

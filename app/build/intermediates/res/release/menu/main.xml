@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_orderbycall"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Order By Call"/>
+    <item
+        android:id="@+id/action_offers"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Offers"
+        />
+    <item
+        android:id="@+id/action_hisotry"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="History"/>
+    <item
+        android:id="@+id/action_servicecharge"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Service Charge"/>
+    <item
+        android:id="@+id/action_contact"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Contact Us"/>
+    <item
+        android:id="@+id/action_feedback"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Feedback"/>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="About Lifeline"/>
+
+    
+    
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search"
+                android:showAsAction="always"
+        
+        android:title="Search"/>
+    <item
+        android:id="@+id/action_cart"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart"/>
+	
+</menu>
+<!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/menu/main.xml -->

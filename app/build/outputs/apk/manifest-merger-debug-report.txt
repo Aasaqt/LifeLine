@@ -1,0 +1,375 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:10:5
+	android:name
+		ADDED from AndroidManifest.xml:10:22
+uses-permission#android.permission.CALL_PHONE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+application
+ADDED from AndroidManifest.xml:14:5
+	android:label
+		ADDED from AndroidManifest.xml:17:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:15:9
+	android:icon
+		ADDED from AndroidManifest.xml:16:9
+	android:theme
+		ADDED from AndroidManifest.xml:18:9
+activity#com.lifeline.lifelineforyou.SplashScreen
+ADDED from AndroidManifest.xml:19:8
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:22:13
+	android:label
+		ADDED from AndroidManifest.xml:21:13
+	android:theme
+		ADDED from AndroidManifest.xml:23:13
+	android:name
+		ADDED from AndroidManifest.xml:20:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:24:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:25:17
+	android:name
+		ADDED from AndroidManifest.xml:25:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:27:17
+	android:name
+		ADDED from AndroidManifest.xml:27:27
+meta-data#android.app.searchable
+ADDED from AndroidManifest.xml:29:13
+	android:resource
+		ADDED from AndroidManifest.xml:31:9
+	android:name
+		ADDED from AndroidManifest.xml:30:9
+activity#com.lifeline.lifelineforyou.LoginActivity
+ADDED from AndroidManifest.xml:34:9
+	android:label
+		ADDED from AndroidManifest.xml:36:13
+	android:name
+		ADDED from AndroidManifest.xml:35:13
+intent-filter#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:37:13
+activity#com.lifeline.lifelineforyou.MainActivity
+ADDED from AndroidManifest.xml:43:9
+	android:label
+		ADDED from AndroidManifest.xml:45:13
+	android:name
+		ADDED from AndroidManifest.xml:44:13
+activity#com.lifeline.lifelineforyou.StationaryActivity
+ADDED from AndroidManifest.xml:52:9
+	android:label
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+intent-filter#android.intent.action.STATIONARY+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:55:13
+action#android.intent.action.STATIONARY
+ADDED from AndroidManifest.xml:56:17
+	android:name
+		ADDED from AndroidManifest.xml:56:25
+activity#com.lifeline.lifelineforyou.GeneralStoreActivity
+ADDED from AndroidManifest.xml:61:9
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:name
+		ADDED from AndroidManifest.xml:62:13
+intent-filter#android.intent.action.ELEC+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:64:13
+action#android.intent.action.ELEC
+ADDED from AndroidManifest.xml:65:17
+	android:name
+		ADDED from AndroidManifest.xml:65:25
+activity#com.lifeline.lifelineforyou.CosmeticsActivity
+ADDED from AndroidManifest.xml:70:9
+	android:label
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+intent-filter#android.intent.action.COSME+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:73:13
+action#android.intent.action.COSME
+ADDED from AndroidManifest.xml:74:17
+	android:name
+		ADDED from AndroidManifest.xml:74:25
+activity#com.lifeline.lifelineforyou.PUSweetsActivity
+ADDED from AndroidManifest.xml:79:9
+	android:label
+		ADDED from AndroidManifest.xml:81:13
+	android:name
+		ADDED from AndroidManifest.xml:80:13
+intent-filter#android.intent.action.WEED+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:82:13
+action#android.intent.action.WEED
+ADDED from AndroidManifest.xml:83:17
+	android:name
+		ADDED from AndroidManifest.xml:83:25
+activity#com.lifeline.lifelineforyou.FoodActivity
+ADDED from AndroidManifest.xml:88:9
+	android:label
+		ADDED from AndroidManifest.xml:90:13
+	android:name
+		ADDED from AndroidManifest.xml:89:13
+intent-filter#android.intent.action.FOODA+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:91:13
+action#android.intent.action.FOODA
+ADDED from AndroidManifest.xml:92:17
+	android:name
+		ADDED from AndroidManifest.xml:92:25
+activity#com.lifeline.lifelineforyou.HealthActivity
+ADDED from AndroidManifest.xml:97:9
+	android:label
+		ADDED from AndroidManifest.xml:99:13
+	android:name
+		ADDED from AndroidManifest.xml:98:13
+intent-filter#android.intent.action.HEALTHA+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:100:13
+action#android.intent.action.HEALTHA
+ADDED from AndroidManifest.xml:101:17
+	android:name
+		ADDED from AndroidManifest.xml:101:25
+activity#com.lifeline.lifelineforyou.AddToCartActivity
+ADDED from AndroidManifest.xml:106:10
+	android:label
+		ADDED from AndroidManifest.xml:108:13
+	android:name
+		ADDED from AndroidManifest.xml:107:13
+intent-filter#android.intent.action.ADDTOCART+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:109:13
+action#android.intent.action.ADDTOCART
+ADDED from AndroidManifest.xml:110:17
+	android:name
+		ADDED from AndroidManifest.xml:110:25
+activity#com.lifeline.lifelineforyou.BakeryActivity
+ADDED from AndroidManifest.xml:115:9
+	android:label
+		ADDED from AndroidManifest.xml:117:13
+	android:name
+		ADDED from AndroidManifest.xml:116:13
+intent-filter#android.intent.action.BAKERY+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:118:13
+action#android.intent.action.BAKERY
+ADDED from AndroidManifest.xml:119:17
+	android:name
+		ADDED from AndroidManifest.xml:119:25
+activity#com.lifeline.lifelineforyou.E_printoutActivity
+ADDED from AndroidManifest.xml:124:9
+	android:label
+		ADDED from AndroidManifest.xml:126:13
+	android:name
+		ADDED from AndroidManifest.xml:125:13
+intent-filter#android.intent.action.EPRINTOUT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:127:13
+action#android.intent.action.EPRINTOUT
+ADDED from AndroidManifest.xml:128:17
+	android:name
+		ADDED from AndroidManifest.xml:128:25
+activity#com.lifeline.lifelineforyou.RechargeActivity
+ADDED from AndroidManifest.xml:133:9
+	android:label
+		ADDED from AndroidManifest.xml:135:13
+	android:name
+		ADDED from AndroidManifest.xml:134:13
+intent-filter#android.intent.action.RECHARGE+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:136:13
+action#android.intent.action.RECHARGE
+ADDED from AndroidManifest.xml:137:17
+	android:name
+		ADDED from AndroidManifest.xml:137:25
+activity#com.lifeline.lifelineforyou.FruitsActivity
+ADDED from AndroidManifest.xml:142:9
+	android:label
+		ADDED from AndroidManifest.xml:144:13
+	android:name
+		ADDED from AndroidManifest.xml:143:13
+intent-filter#android.intent.action.FRUITS+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:145:13
+action#android.intent.action.FRUITS
+ADDED from AndroidManifest.xml:146:17
+	android:name
+		ADDED from AndroidManifest.xml:146:25
+activity#com.lifeline.lifelineforyou.CheckOutActivity
+ADDED from AndroidManifest.xml:151:9
+	android:label
+		ADDED from AndroidManifest.xml:153:13
+	android:name
+		ADDED from AndroidManifest.xml:152:13
+intent-filter#android.intent.action.CHECKOUT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:154:13
+action#android.intent.action.CHECKOUT
+ADDED from AndroidManifest.xml:155:17
+	android:name
+		ADDED from AndroidManifest.xml:155:25
+activity#com.lifeline.lifelineforyou.FinalDetailsPage
+ADDED from AndroidManifest.xml:160:9
+	android:label
+		ADDED from AndroidManifest.xml:162:13
+	android:name
+		ADDED from AndroidManifest.xml:161:13
+intent-filter#android.intent.action.FINAL+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:163:13
+action#android.intent.action.FINAL
+ADDED from AndroidManifest.xml:164:17
+	android:name
+		ADDED from AndroidManifest.xml:164:25
+activity#com.lifeline.lifelineforyou.HistoryActivity
+ADDED from AndroidManifest.xml:169:9
+	android:label
+		ADDED from AndroidManifest.xml:171:13
+	android:name
+		ADDED from AndroidManifest.xml:170:13
+intent-filter#android.intent.action.HISTORY+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:172:13
+action#android.intent.action.HISTORY
+ADDED from AndroidManifest.xml:173:17
+	android:name
+		ADDED from AndroidManifest.xml:173:25
+activity#com.lifeline.lifelineforyou.OfferActivity
+ADDED from AndroidManifest.xml:178:10
+	android:label
+		ADDED from AndroidManifest.xml:180:13
+	android:name
+		ADDED from AndroidManifest.xml:179:13
+intent-filter#android.intent.action.OFFER+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:181:13
+action#android.intent.action.OFFER
+ADDED from AndroidManifest.xml:182:17
+	android:name
+		ADDED from AndroidManifest.xml:182:25
+activity#com.lifeline.lifelineforyou.SearchActivity
+ADDED from AndroidManifest.xml:187:9
+	android:label
+		ADDED from AndroidManifest.xml:189:13
+	android:name
+		ADDED from AndroidManifest.xml:188:13
+intent-filter#android.intent.action.SEARCH+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:190:13
+action#android.intent.action.SEARCH
+ADDED from AndroidManifest.xml:191:17
+	android:name
+		ADDED from AndroidManifest.xml:191:25
+activity#com.lifeline.lifelineforyou.SubStationaryActivity
+ADDED from AndroidManifest.xml:196:9
+	android:label
+		ADDED from AndroidManifest.xml:198:13
+	android:name
+		ADDED from AndroidManifest.xml:197:13
+intent-filter#android.intent.action.SUBSTAT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:199:13
+action#android.intent.action.SUBSTAT
+ADDED from AndroidManifest.xml:200:17
+	android:name
+		ADDED from AndroidManifest.xml:200:25
+activity#com.lifeline.lifelineforyou.CosmeticsSubCatActivity
+ADDED from AndroidManifest.xml:205:10
+	android:label
+		ADDED from AndroidManifest.xml:207:13
+	android:name
+		ADDED from AndroidManifest.xml:206:13
+intent-filter#android.intent.action.COSSUBCAT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:208:13
+action#android.intent.action.COSSUBCAT
+ADDED from AndroidManifest.xml:209:17
+	android:name
+		ADDED from AndroidManifest.xml:209:25
+activity#com.lifeline.lifelineforyou.FoodSubCatActivity
+ADDED from AndroidManifest.xml:214:9
+	android:label
+		ADDED from AndroidManifest.xml:216:13
+	android:name
+		ADDED from AndroidManifest.xml:215:13
+intent-filter#android.intent.action.FOODSUBCAT+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:217:13
+action#android.intent.action.FOODSUBCAT
+ADDED from AndroidManifest.xml:218:17
+	android:name
+		ADDED from AndroidManifest.xml:218:25
+activity#com.lifeline.lifelineforyou.HelpActivity
+ADDED from AndroidManifest.xml:223:9
+	android:label
+		ADDED from AndroidManifest.xml:225:13
+	android:name
+		ADDED from AndroidManifest.xml:224:13
+intent-filter#android.intent.action.HELP+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:226:13
+action#android.intent.action.HELP
+ADDED from AndroidManifest.xml:227:17
+	android:name
+		ADDED from AndroidManifest.xml:227:25
+activity#com.lifeline.lifelineforyou.ThankYouActivity
+ADDED from AndroidManifest.xml:232:10
+	android:label
+		ADDED from AndroidManifest.xml:234:13
+	android:name
+		ADDED from AndroidManifest.xml:233:13
+intent-filter#android.intent.action.THANK+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:235:13
+action#android.intent.action.THANK
+ADDED from AndroidManifest.xml:236:17
+	android:name
+		ADDED from AndroidManifest.xml:236:25
+activity#com.lifeline.lifelineforyou.AboutShopsActivity
+ADDED from AndroidManifest.xml:241:9
+	android:label
+		ADDED from AndroidManifest.xml:243:13
+	android:name
+		ADDED from AndroidManifest.xml:242:13
+intent-filter#android.intent.action.ABOUTSHOP+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:244:13
+action#android.intent.action.ABOUTSHOP
+ADDED from AndroidManifest.xml:245:17
+	android:name
+		ADDED from AndroidManifest.xml:245:25
+activity#com.lifeline.lifelineforyou.AddMoreMedActivity
+ADDED from AndroidManifest.xml:250:10
+	android:label
+		ADDED from AndroidManifest.xml:252:13
+	android:name
+		ADDED from AndroidManifest.xml:251:13
+intent-filter#android.intent.action.ADDMORE+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:253:13
+action#android.intent.action.ADDMORE
+ADDED from AndroidManifest.xml:254:17
+	android:name
+		ADDED from AndroidManifest.xml:254:25
+activity#com.lifeline.lifelineforyou.ServiceCharge
+ADDED from AndroidManifest.xml:259:9
+	android:label
+		ADDED from AndroidManifest.xml:261:13
+	android:name
+		ADDED from AndroidManifest.xml:260:13
+intent-filter#android.intent.action.SERVICECHARGE+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:262:13
+action#android.intent.action.SERVICECHARGE
+ADDED from AndroidManifest.xml:263:17
+	android:name
+		ADDED from AndroidManifest.xml:263:25

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="operator_array">
+        <item>Operator Name</item>
+        <item>Airtel</item>
+        <item>Vodafone</item>
+        <item>Idea</item>
+        <item>Docomo</item>
+        <item>BSNL</item>
+        <item>Aircel</item>
+    </string-array>
+    
+    <string-array name="recharge_type">
+        <item>Rechrge Type</item>
+        <item>Top Up</item>
+        <item>Internet</item>
+        <item>Messege Pack</item>
+        
+    </string-array>
+    
+    <string-array name="service_charge">
+        <item>stationary</item>
+        <item>general_store</item>
+        <item>Cosmetics</item>
+        <item>pu_sweets</item>
+        <item>FOOD</item>
+        <item>Bakery</item>
+        <item>fruits</item>
+        <item>lava</item>
+        <item>stu_c</item>
+        <item>NFS</item>
+        <item>chinese_food</item>
+         <item>dark_moon_kitchen</item>
+        <item>Medicine</item>
+        <item>E-printout</item>
+
+     </string-array>
+     <string-array name="service_charge_price">
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+        <item>30</item>
+         <item>30</item>
+         <item>30</item>
+
+     </string-array>
+      <string-array name="shop_open">
+        <item>09:30 AM</item>
+        <item>11:00 AM</item>
+        <item>09:00 AM</item>
+        <item>09:00 AM</item>
+        <item>09:00 AM</item>
+        <item>10:00 AM</item>
+        <item>09:00 AM</item>
+        <item>11:00 AM</item>
+        <item>09:00 AM</item>
+        <item>07:00 PM</item>
+        <item>10:00 AM</item>
+        <item>05:00 PM</item>
+        <item>09:30 AM</item>
+        <item>09:30 AM</item>
+        <item>09:00 AM</item>
+
+     </string-array>
+      <string-array name="shop_close">
+        <item>10:00 PM</item>
+        <item>09:00 PM</item>
+        <item>09:00 PM</item>
+        <item>08:30 PM</item>
+        <item>01:00 AM</item>
+        <item>10:00 PM</item>
+        <item>09:00 PM</item>
+        <item>11:00 PM</item>
+        <item>09:00 PM</item>
+        <item>01:00 AM</item>
+        <item>10:00 PM</item>
+        <item>01:00 AM</item>
+        <item>01:00 AM</item>
+        <item>10:00 PM</item>
+        <item>01:00 AM</item>
+
+     </string-array>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/tvItemName"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ivcartdel"
+        android:text="Item Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/tvItemid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Itemid"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/ivcartdel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_delete" />
+
+    <TextView
+        android:id="@+id/tvItemPrice"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:text="100"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button 
+         android:id="@+id/tvQuantItemcart"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivcartdel"
+        android:layout_toLeftOf="@+id/tvItemPrice"
+        android:layout_marginRight="20dp"
+        android:text="Qty"
+ 
+        android:background="@android:color/transparent"
+        />
+    
+
+</RelativeLayout>

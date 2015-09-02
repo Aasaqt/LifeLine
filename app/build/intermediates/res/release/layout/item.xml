@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+    <EditText
+        android:id="@+id/etmedmore"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Medicine Name" />
+
+   <EditText
+       android:id="@+id/etmedqtymore"
+       android:layout_width="95dp"
+       android:layout_height="wrap_content"
+       android:layout_alignBaseline="@+id/etmedmore"
+       android:layout_alignBottom="@+id/etmedmore"
+       android:layout_alignParentRight="true"
+       android:layout_marginRight="18dp"
+       android:ems="10"
+       android:hint="Quantity" >
+
+   </EditText>
+
+</RelativeLayout>
+<!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/layout/item.xml -->

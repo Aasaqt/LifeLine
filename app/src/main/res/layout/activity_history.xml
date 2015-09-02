@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+     <RelativeLayout
+         android:id="@+id/upperlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+         >
+		<TextView
+        android:id="@+id/tvorderno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+   		android:layout_marginTop="20dp"
+   		android:layout_marginBottom="20dp"
+        android:layout_marginLeft="21dp"
+        android:text="Order No."
+        android:textColor="#FBA146"
+        android:textStyle="italic"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/tvdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FBA146"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/tvamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvdate"
+        android:layout_alignBottom="@+id/tvdate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="Total Amount"
+        android:textColor="#FBA146"
+        android:textSize="15dp" />
+          </RelativeLayout>
+    
+	<ListView android:id="@+id/historylist"
+		android:layout_marginTop="60dp"
+		 android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+            android:divider="@android:color/transparent"
+        android:dividerHeight="1dp" 
+     	 />
+</RelativeLayout>

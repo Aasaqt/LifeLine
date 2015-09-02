@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+        <RelativeLayout
+         android:id="@+id/upperlayout_addto_cart"
+         android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+     
+         >
+          <TextView
+            android:id="@+id/itemtxt"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+         	android:layout_margin="15dp"
+            android:text="Products"
+             android:textColor="#FBA146"
+        android:textSize="18dp"
+        android:textStyle="bold"
+          />
+    <TextView
+            android:id="@+id/tvcartpid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+      	     android:textSize="1dp" />
+
+    <TextView
+        android:id="@+id/tvcartprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="62dp"
+        android:text="Price(INR)"
+        android:textColor="#FBA146"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+		
+          </RelativeLayout>
+    
+    <ListView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addtocartlistview"
+        android:divider="#969696"
+		android:dividerHeight="1dp"
+
+		android:layout_below="@+id/upperlayout_addto_cart"
+       > 
+    </ListView>
+
+</RelativeLayout>

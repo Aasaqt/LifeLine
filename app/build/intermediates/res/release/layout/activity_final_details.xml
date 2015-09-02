@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+
+    <TextView
+        android:id="@+id/tvbillingaddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:text="BILLING ADDRESS"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/etfinalName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvbillingaddress"
+        android:layout_margin="10dp"
+        android:hint="Full Name"
+        android:ems="10" >
+	
+    </EditText>
+
+    <EditText
+        android:id="@+id/etfinalphone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/etfinalName"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etfinalemail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/etfinalphone"
+        android:layout_alignRight="@+id/etfinalphone"
+        android:layout_below="@+id/etfinalphone"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" >
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnfinalplaceorder"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etfinaladdress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/custombordercontent"
+        android:textColor="#ffffff"
+        android:text="Place Order" />
+
+    <EditText
+        android:id="@+id/etfinaladdress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etfinalemail"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPostalAddress" >
+
+      
+    </EditText>
+   
+</RelativeLayout>
+
+<!-- From: file:/home/aasaqt/AndroidstudioProjects/LifeLine/app/src/main/res/layout/activity_final_details.xml -->

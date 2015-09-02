@@ -1,0 +1,3 @@
+/home/aasaqt/AndroidstudioProjects/LifeLine/app/build/intermediates/classes/release
+/home/aasaqt/AndroidstudioProjects/LifeLine/app/build/intermediates/pre-dexed/release/opencsv-2.3-f8c08b7365fca6c9abb094401468c23e53c7d870.jar
+/home/aasaqt/AndroidstudioProjects/LifeLine/app/build/intermediates/pre-dexed/release/support-v4-19.1.0-619d00884d422535431d96496446a2dfd3a52aa3.jar
